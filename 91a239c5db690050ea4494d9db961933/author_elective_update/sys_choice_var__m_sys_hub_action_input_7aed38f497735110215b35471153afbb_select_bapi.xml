@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="select_bapi" table="var__m_sys_hub_action_input_7aed38f497735110215b35471153afbb" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>select_bapi</element>
+            <name>var__m_sys_hub_action_input_7aed38f497735110215b35471153afbb</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:53:57</sys_created_on>
+            <sys_id>ee701d148719a110928ea7d73cbb3583</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>select_bapi</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_7aed38f497735110215b35471153afbb_select_bapi</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:53:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_bapi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Standard BAPI</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_7aed38f497735110215b35471153afbb</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>krishna</sys_created_by>
+            <sys_created_on>2022-12-14 08:31:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>82c87805873b51101dff337e0ebb35c9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>satyasagar.palivela@snc</sys_updated_by>
+            <sys_updated_on>2022-12-19 16:44:40</sys_updated_on>
+            <value>BAPI_GOODSMVT_CREATE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_bapi</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Custom BAPI</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_7aed38f497735110215b35471153afbb</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>krishna</sys_created_by>
+            <sys_created_on>2022-12-19 11:29:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce51d322977f9510215b35471153af01</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>satyasagar.palivela@snc</sys_updated_by>
+            <sys_updated_on>2022-12-19 16:44:40</sys_updated_on>
+            <value>ZSN_BAPI_GOODSMVT_CREATE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

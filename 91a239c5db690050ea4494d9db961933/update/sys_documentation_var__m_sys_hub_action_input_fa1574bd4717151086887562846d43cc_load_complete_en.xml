@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="load_complete" label="Load Complete" language="en" table="var__m_sys_hub_action_input_fa1574bd4717151086887562846d43cc">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>load_complete</element>
+            <help/>
+            <hint/>
+            <label>Load Complete</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_fa1574bd4717151086887562846d43cc</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>prama</sys_created_by>
+            <sys_created_on>2023-01-03 07:02:37</sys_created_on>
+            <sys_id>683423d3878021101dff337e0ebb35b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Load Complete</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_fa1574bd4717151086887562846d43cc_load_complete_en</sys_update_name>
+            <sys_updated_by>prama</sys_updated_by>
+            <sys_updated_on>2023-01-03 07:02:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

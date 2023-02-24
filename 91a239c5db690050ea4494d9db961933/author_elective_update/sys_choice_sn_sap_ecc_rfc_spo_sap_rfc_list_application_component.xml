@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="application_component" table="sn_sap_ecc_rfc_spo_sap_rfc_list" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>application_component</element>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_id>4e2dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>application_component</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_choice_sn_sap_ecc_rfc_spo_sap_rfc_list_application_component</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cross-Application</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>422dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Cross-Application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Asset Accounting</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>822dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Asset Accounting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Business Information Warehouse</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c22dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Business Information Warehouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PPC</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>062dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>PPC</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DASS (control station)</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>462dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>DASS (control station)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RIVA</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>862dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>RIVA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financial accounting</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c62dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Financial accounting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General ledger</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>General ledger</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Human Resources Planning</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Human Resources Planning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plant maintenance</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Plant maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Publishing</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Publishing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cost Accounting</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Cost Accounting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Warehouse Management</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Warehouse Management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Materials management</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Materials management</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hospital</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce2dc55c87d5a110928ea7d73cbb3503</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Hospital</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Human resources</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>022dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Human resources</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QSS (Quality assurance)</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>422dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>QSS (Quality assurance)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown application</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>822dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Unknown application</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Basis</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c22dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Basis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enterprise Data Model</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>062dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Enterprise Data Model</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sales</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>462dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Sales</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MMS (Merchandise mgt. system)</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>862dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>MMS (Merchandise mgt. system)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Head Office</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c62dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Customer Head Office</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer branch</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a2dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>Customer branch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>application_component</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MISC</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a2dc55c87d5a110928ea7d73cbb3504</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:27</sys_updated_on>
+            <value>MISC</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

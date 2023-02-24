@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="SALES_ORGANIZATION" label="Sales organization" language="en" table="var__m_sys_hub_action_input_c4b282ac1b1d6c10d2cf7669cc4bcb8c">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>SALES_ORGANIZATION</element>
+            <help/>
+            <hint/>
+            <label>Sales organization</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c4b282ac1b1d6c10d2cf7669cc4bcb8c</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-22 05:27:12</sys_created_on>
+            <sys_id>90b282ac1b1d6c10d2cf7669cc4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sales organization</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c4b282ac1b1d6c10d2cf7669cc4bcb8c_SALES_ORGANIZATION_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-22 05:27:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

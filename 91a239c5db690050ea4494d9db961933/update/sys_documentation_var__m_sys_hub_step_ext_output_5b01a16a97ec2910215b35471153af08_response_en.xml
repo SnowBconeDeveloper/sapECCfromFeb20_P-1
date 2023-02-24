@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="response" label="Response" language="en" table="var__m_sys_hub_step_ext_output_5b01a16a97ec2910215b35471153af08">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>response</element>
+            <help/>
+            <hint/>
+            <label>Response</label>
+            <language>en</language>
+            <name>var__m_sys_hub_step_ext_output_5b01a16a97ec2910215b35471153af08</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nishanth</sys_created_by>
+            <sys_created_on>2023-01-25 10:05:37</sys_created_on>
+            <sys_id>5701a16a97ec2910215b35471153af28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Response</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5b01a16a97ec2910215b35471153af08_response_en</sys_update_name>
+            <sys_updated_by>nishanth</sys_updated_by>
+            <sys_updated_on>2023-01-25 10:05:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

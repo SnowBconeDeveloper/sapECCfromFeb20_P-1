@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="enqueue_dequeue_ind" table="var__m_sys_hub_action_input_006b07ffc7c03010678d208c95c26001" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>enqueue_dequeue_ind</element>
+            <name>var__m_sys_hub_action_input_006b07ffc7c03010678d208c95c26001</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:44:19</sys_created_on>
+            <sys_id>514ec5dc87d5a110928ea7d73cbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>enqueue_dequeue_ind</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_006b07ffc7c03010678d208c95c26001_enqueue_dequeue_ind</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:44:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enqueue_dequeue_ind</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>true</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_006b07ffc7c03010678d208c95c26001</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-13 07:39:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42aaf61f87f9151003ceca29dabb35e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-14 09:31:40</sys_updated_on>
+            <value>true</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>enqueue_dequeue_ind</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>false</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_006b07ffc7c03010678d208c95c26001</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-13 07:39:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0eaaf61f87f9151003ceca29dabb35e2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-14 09:31:40</sys_updated_on>
+            <value>false</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="no_price_from_po" table="var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>no_price_from_po</element>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:59:24</sys_created_on>
+            <sys_id>1eb1d1d48719a110928ea7d73cbb356e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>no_price_from_po</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1_no_price_from_po</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:59:24</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2023-02-21 06:22:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21e0bfc7474d2110e07dc4f3836d43bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2023-02-21 06:22:26</sys_updated_on>
+            <value>null</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2023-02-07 11:38:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ae2fc3e47382d10f8cfb777746d435c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2023-02-07 11:38:13</sys_updated_on>
+            <value>null</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>satyasagar.palivela@snc</sys_created_by>
+            <sys_created_on>2023-02-14 05:57:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44086bb04781a150e07dc4f3836d433c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>satyasagar.palivela@snc</sys_updated_by>
+            <sys_updated_on>2023-02-14 05:57:14</sys_updated_on>
+            <value>null</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2023-02-21 06:29:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e923b4b474d2110e07dc4f3836d439a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2023-02-21 06:29:54</sys_updated_on>
+            <value>null</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2023-02-16 06:33:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80938261478d6550f8cfb777746d4384</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2023-02-16 06:33:51</sys_updated_on>
+            <value>null</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>satyasagar.palivela@snc</sys_created_by>
+            <sys_created_on>2023-02-14 05:56:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6e767b04781a150e07dc4f3836d4346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>satyasagar.palivela@snc</sys_updated_by>
+            <sys_updated_on>2023-02-14 05:56:51</sys_updated_on>
+            <value>null</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2023-02-14 11:49:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df98f44147412550f8cfb777746d438e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2023-02-14 11:49:26</sys_updated_on>
+            <value>null</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>no_price_from_po</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_768b472b87c759101dff337e0ebb35e1</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2023-02-07 11:38:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eee2fc3e47382d10f8cfb777746d435c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2023-02-07 11:38:13</sys_updated_on>
+            <value>X</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

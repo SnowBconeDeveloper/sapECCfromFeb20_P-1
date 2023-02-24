@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="GOODSMVT_PR_URNAME" label="User Name for Printing Goods Receipt/Issue Slip" language="en" table="var__m_sys_hub_action_input_0a732f1a47af1110a4be65a5d36d430f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>GOODSMVT_PR_URNAME</element>
+            <help/>
+            <hint/>
+            <label>User Name for Printing Goods Receipt/Issue Slip</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_0a732f1a47af1110a4be65a5d36d430f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2022-12-19 11:21:55</sys_created_on>
+            <sys_id>d8bfcbae973f9510215b35471153af75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User Name for Printing Goods Receipt/Issue Slip</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0a732f1a47af1110a4be65a5d36d430f_GOODSMVT_PR_URNAME_en</sys_update_name>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2022-12-19 11:21:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

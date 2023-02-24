@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="OPTION" table="var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>OPTION</element>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 16:03:56</sys_created_on>
+            <sys_id>28c295588719a110928ea7d73cbb359b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>OPTION</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e_OPTION</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 16:03:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equal To</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da4625db1b811810d2cf7669cc4bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>EQ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not equal to</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>964625db1b811810d2cf7669cc4bcb31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>NE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Between lower and upper value</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>524625db1b811810d2cf7669cc4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>BT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outside lower and upper value</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e4625db1b811810d2cf7669cc4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>NB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contains the pattern</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d64625db1b811810d2cf7669cc4bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>CP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Does not contain the pattern</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>924625db1b811810d2cf7669cc4bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>NP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Less than</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5e4625db1b811810d2cf7669cc4bcb34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>LT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Less Than or Equal To</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a4625db1b811810d2cf7669cc4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>LE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Greater than</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d24625db1b811810d2cf7669cc4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>GT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>OPTION</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Greater Than or Equal To</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_524625db1b811810d2cf7669cc4bcb0e</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-02 09:59:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e4625db1b811810d2cf7669cc4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-02 09:59:33</sys_updated_on>
+            <value>GE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

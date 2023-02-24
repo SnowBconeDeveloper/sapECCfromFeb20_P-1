@@ -8,7 +8,6 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Transfer Order">be020c5187bff4107bfa1f8d3fbb3538</category>
-        <compiler_build>glide-rome-06-23-2021__patch10-hotfix2-08-24-2022_08-31-2022_1215.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>&lt;p&gt;Creates a transfer order in SAP ECC - RFC.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Inputs&lt;/strong&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Connection Alias&lt;/strong&gt; - Connection alias for SAP ECC - RFC.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Warehouse Number - &lt;/strong&gt;It indicates an individual warehouse.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Movement Type - &lt;/strong&gt;They are three digit code to identify type of movement in goods.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Commit Work - &lt;/strong&gt;It is a input provided the value X as per the requirement.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User Name - &lt;/strong&gt;The name used to identify the user.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Only Create TO - &lt;/strong&gt;It is a input provided the value X as per the requirement.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Multi Item Transfer Orders -&lt;/strong&gt; Complex object containing these fields:&lt;strong&gt; &lt;br /&gt; &lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Material Number&lt;/li&gt;&lt;li&gt;Plant&lt;/li&gt;&lt;li&gt;Storage Location&lt;/li&gt;&lt;li&gt;Batch&lt;/li&gt;&lt;li&gt;Stock Category&lt;/li&gt;&lt;li&gt;Special Stock&lt;/li&gt;&lt;li&gt;Special Stock Number&lt;/li&gt;&lt;li&gt;Storage Unit Type&lt;/li&gt;&lt;li&gt;Quantity requested&lt;/li&gt;&lt;li&gt;Alternative Unit of Measure&lt;/li&gt;&lt;li&gt;GR Date&lt;/li&gt;&lt;li&gt;SLED/BBD&lt;/li&gt;&lt;li&gt;Certificate Number&lt;/li&gt;&lt;li&gt;Confirm&lt;/li&gt;&lt;li&gt;Do not print&lt;/li&gt;&lt;li&gt;Printer&lt;/li&gt;&lt;li&gt;Goods recipient&lt;/li&gt;&lt;li&gt;Unloading Point&lt;/li&gt;&lt;li&gt;Source Storage Type&lt;/li&gt;&lt;li&gt;Source stor.section&lt;/li&gt;&lt;li&gt;Source Storage Bin&lt;/li&gt;&lt;li&gt;Source bin position&lt;/li&gt;&lt;li&gt;Source storage unit&lt;/li&gt;&lt;li&gt;Quant [ VLQNR ]&lt;/li&gt;&lt;li&gt;Dest. Storage Type&lt;/li&gt;&lt;li&gt;Dest.storage section&lt;/li&gt;&lt;li&gt;Dest.Storage Bin&lt;/li&gt;&lt;li&gt;Dest.bin position&lt;/li&gt;&lt;li&gt;Dest.storage unit&lt;/li&gt;&lt;li&gt;Quant [ NLQNR ]&lt;/li&gt;&lt;li&gt;Return storage type&lt;/li&gt;&lt;li&gt;Return storage area&lt;/li&gt;&lt;li&gt;Return storage bin&lt;/li&gt;&lt;li&gt;Quant [ RLQNR ]&lt;/li&gt;&lt;li&gt;Item (SD)&lt;/li&gt;&lt;li&gt;Kanban Indicator&lt;/li&gt;&lt;li&gt;Inspection GUID [ FROM_INSP_GUID ]&lt;/li&gt;&lt;li&gt;Inspection GUID [ TO_INSP_GUID ]&lt;/li&gt;&lt;li&gt;Inspection GUID [ RETURN_INSP_GUID ]&lt;/li&gt;&lt;li&gt;Table Row&lt;/li&gt;&lt;li&gt;Stock Segment&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Transmission Structure - &lt;/strong&gt;Complex object containing these fields:&lt;strong&gt; &lt;br /&gt; &lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Client&lt;/li&gt;&lt;li&gt;Warehouse Number&lt;/li&gt;&lt;li&gt;Transfer Order Number&lt;/li&gt;&lt;li&gt;Movement type [ BWART ]&lt;/li&gt;&lt;li&gt;Movement type [ BWLVS ]&lt;/li&gt;&lt;li&gt;Transfer Priority&lt;/li&gt;&lt;li&gt;Shipment Type&lt;/li&gt;&lt;li&gt;Creation Date&lt;/li&gt;&lt;li&gt;Time created&lt;/li&gt;&lt;li&gt;User&lt;/li&gt;&lt;li&gt;Group&lt;/li&gt;&lt;li&gt;TR Number&lt;/li&gt;&lt;li&gt;PostingChange Number&lt;/li&gt;&lt;li&gt;Sales Document&lt;/li&gt;&lt;li&gt;Confirmation&lt;/li&gt;&lt;li&gt;Confirmation Date&lt;/li&gt;&lt;li&gt;Material Document&lt;/li&gt;&lt;li&gt;Material Doc. Year&lt;/li&gt;&lt;li&gt;Requirement Type&lt;/li&gt;&lt;li&gt;Requirement Number&lt;/li&gt;&lt;li&gt;Print code&lt;/li&gt;&lt;li&gt;Transfer Order Printed&lt;/li&gt;&lt;li&gt;Partially supplied&lt;/li&gt;&lt;li&gt;Ind: R/2 immediately&lt;/li&gt;&lt;li&gt;Ind: accumulated&lt;/li&gt;&lt;li&gt;Difference immediat.&lt;/li&gt;&lt;li&gt;Indicator: planned&lt;/li&gt;&lt;li&gt;Planned execution&lt;/li&gt;&lt;li&gt;Reservation&lt;/li&gt;&lt;li&gt;Additional Number&lt;/li&gt;&lt;li&gt;Requirement type&lt;/li&gt;&lt;li&gt;Control cycle number&lt;/li&gt;&lt;li&gt;Kanban item no.&lt;/li&gt;&lt;li&gt;Performance data&lt;/li&gt;&lt;li&gt;Actual time required in TO&lt;/li&gt;&lt;li&gt;Input rqmnt for act.data&lt;/li&gt;&lt;li&gt;Personnel Number&lt;/li&gt;&lt;li&gt;Plan Time WM&lt;/li&gt;&lt;li&gt;Plan Time External Sys.&lt;/li&gt;&lt;li&gt;Actual Time of WM Transfer Order&lt;/li&gt;&lt;li&gt;Time unit&lt;/li&gt;&lt;li&gt;Transfer Order HR Status&lt;/li&gt;&lt;li&gt;Start Date of the Transfer Order&lt;/li&gt;&lt;li&gt;Transfer Order End Date&lt;/li&gt;&lt;li&gt;Start time of the transfer order&lt;/li&gt;&lt;li&gt;Transfer Order End Time&lt;/li&gt;&lt;li&gt;Transfer Order Type&lt;/li&gt;&lt;li&gt;Lean WM&lt;/li&gt;&lt;li&gt;Door for Whse No.&lt;/li&gt;&lt;li&gt;Staging Area&lt;/li&gt;&lt;li&gt;Packaging in WM&lt;/li&gt;&lt;li&gt;Threshold deviation plan/actual time (%)&lt;/li&gt;&lt;li&gt;TO processing comment (code)&lt;/li&gt;&lt;li&gt;Special reference&lt;/li&gt;&lt;li&gt;SD document categ.&lt;/li&gt;&lt;li&gt;Queue&lt;/li&gt;&lt;li&gt;Separate confirmatn&lt;/li&gt;&lt;li&gt;Transfer order priority&lt;/li&gt;&lt;li&gt;Pick confirmed&lt;/li&gt;&lt;li&gt;Confirm HU&lt;/li&gt;&lt;li&gt;Number of line items&lt;/li&gt;&lt;li&gt;TRM&lt;/li&gt;&lt;li&gt;Delayed Update&lt;/li&gt;&lt;li&gt;Confirmation Transf.&lt;/li&gt;&lt;li&gt;TO for Multiple Deliv.&lt;/li&gt;&lt;li&gt;Number of items&lt;/li&gt;&lt;li&gt;Do not print&lt;/li&gt;&lt;li&gt;Actual data recorded&lt;/li&gt;&lt;li&gt;Partial allocation&lt;/li&gt;&lt;li&gt;Partial direct pickg&lt;/li&gt;&lt;li&gt;Only Items&lt;/li&gt;&lt;li&gt;Adopt Pick Quantity&lt;/li&gt;&lt;li&gt;Adopt putaway qty&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Transmission Structure for Update Task- &lt;/strong&gt;Complex object containing these fields:&lt;strong&gt; &lt;br /&gt; &lt;/strong&gt;&lt;ul&gt;&lt;li&gt;Client&lt;/li&gt;&lt;li&gt;Material Number&lt;/li&gt;&lt;li&gt;Plant&lt;/li&gt;&lt;li&gt;Batch Number&lt;/li&gt;&lt;li&gt;Special Stock&lt;/li&gt;&lt;li&gt;Storage Unit Type&lt;/li&gt;&lt;li&gt;Source Storage Type&lt;/li&gt;&lt;li&gt;Source stor.section&lt;/li&gt;&lt;li&gt;Source Storage Bin&lt;/li&gt;&lt;li&gt;Source target qty&lt;/li&gt;&lt;li&gt;Dest. Storage Type&lt;/li&gt;&lt;li&gt;Dest.storage section&lt;/li&gt;&lt;li&gt;Dest.Storage Bin&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Additional Fields - &lt;/strong&gt;Additional fields or values you want to add to the details. These fields are retrieved dynamically from SAP ECC - RFC.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Outputs&lt;/strong&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Transfer Order Details&amp;nbsp;&lt;/strong&gt;- Details of transfer order created in SAP ECC - RFC.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Status&lt;/strong&gt; - If the request is executed successfully, Status is set to &amp;ldquo;Success&amp;rdquo;. If there is a failure in SAP ECC - RFC, Status is set to &amp;ldquo;Error&amp;rdquo;.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Error Message&lt;/strong&gt; - Reason for error. Populated only when an error occurs.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Error Messages&lt;/strong&gt; :&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Encountered an error. Check log for more details.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;To use this action, the corresponding SAP ECC - RFC connection and credential must be created and associated with the SAP ECC Connection &amp;amp; Credential alias. &lt;a href="http://docs.servicenow.com/?context=CSHelp:credentials-connections-alias" target="_blank"&gt;Learn More&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Requires a subscription for production use. &lt;a href="https://docs.servicenow.com/?context=CSHelp:IntegrationHub-licensing-information" target="_blank"&gt;Read More&lt;/a&gt;.&lt;/p&gt;</description>
@@ -20,6 +19,7 @@
         <natlang/>
         <outputs/>
         <outputs/>
+        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2952c7fb1b43b4104d93ea06624bcb44</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Create Transfer Order and Line Items</sys_name>
         <sys_overrides/>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_2952c7fb1b43b4104d93ea06624bcb44</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-13 04:38:39</sys_updated_on>
+        <sys_updated_on>2023-02-24 15:47:22</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -273,18 +273,6 @@
         <value>{{action.conn_alias.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3c184b141b6734104d93ea06624bcb57</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 09:05:06</sys_created_on>
-        <sys_id>666117981b6734104d93ea06624bcb9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 09:05:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>comitwrk</field>
         <id>3c184b141b6734104d93ea06624bcb57</id>
         <sys_created_by>admin</sys_created_by>
@@ -309,18 +297,6 @@
         <value>{{action.I_KOMPL}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>3c184b141b6734104d93ea06624bcb57</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 09:05:06</sys_created_on>
-        <sys_id>2a6117981b6734104d93ea06624bcb9f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 09:05:06</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>mvtyp</field>
         <id>3c184b141b6734104d93ea06624bcb57</id>
         <sys_created_by>admin</sys_created_by>
@@ -331,18 +307,6 @@
         <sys_updated_on>2021-10-28 08:24:20</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3c184b141b6734104d93ea06624bcb57</table>
         <value>{{action.I_BWLVS}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3c184b141b6734104d93ea06624bcb57</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 08:24:20</sys_created_on>
-        <sys_id>dd184b141b6734104d93ea06624bcba7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 08:24:20</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>toitem</field>
@@ -438,6 +402,7 @@
         <element>mvtyp</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -484,6 +449,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -519,6 +485,7 @@
         <element>uname</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -565,6 +532,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -600,6 +568,7 @@
         <element>trnsltp</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -646,6 +615,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -681,6 +651,7 @@
         <element>comitwrk</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -727,6 +698,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -762,6 +734,7 @@
         <element>creto</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -808,6 +781,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -843,6 +817,7 @@
         <element>additional_in</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -889,6 +864,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -924,6 +900,7 @@
         <element>toitem</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -970,6 +947,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1005,6 +983,7 @@
         <element>alias_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1051,6 +1030,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1086,6 +1066,7 @@
         <element>wno</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1132,6 +1113,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1167,6 +1149,7 @@
         <element>trnstru</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1213,6 +1196,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1249,6 +1233,7 @@
         <element>conn_params</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1295,6 +1280,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1330,6 +1316,7 @@
         <element>json_in</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1376,6 +1363,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1411,6 +1399,7 @@
         <element>cred_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1457,6 +1446,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1492,6 +1482,7 @@
         <element>conn_host</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1538,6 +1529,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1557,11 +1549,11 @@
         <sys_created_on>2022-10-13 04:38:27</sys_created_on>
         <sys_id>19d0708587a2d51003ceca29dabb3562</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cred_id</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3c184b141b6734104d93ea06624bcb57_cred_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:27</sys_updated_on>
         <url/>
@@ -1580,11 +1572,11 @@
         <sys_created_on>2022-10-13 04:38:27</sys_created_on>
         <sys_id>55d0708587a2d51003ceca29dabb3565</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>conn_host</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3c184b141b6734104d93ea06624bcb57_conn_host_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:27</sys_updated_on>
         <url/>
@@ -1603,11 +1595,11 @@
         <sys_created_on>2022-10-13 04:38:27</sys_created_on>
         <sys_id>55d0708587a2d51003ceca29dabb3567</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>conn_params</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3c184b141b6734104d93ea06624bcb57_conn_params_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:27</sys_updated_on>
         <url/>
@@ -1626,11 +1618,11 @@
         <sys_created_on>2022-10-13 04:38:27</sys_created_on>
         <sys_id>55d0708587a2d51003ceca29dabb3569</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>json_in</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3c184b141b6734104d93ea06624bcb57_json_in_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:27</sys_updated_on>
         <url/>
@@ -1762,30 +1754,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3e6117981b6734104d93ea06624bcba3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>3e6117981b6734104d93ea06624bcba3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:13</sys_created_on>
-        <sys_id>f35534791b2bf4104d93ea06624bcbc1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>3e6117981b6734104d93ea06624bcba3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 09:05:09</sys_created_on>
-        <sys_id>136117981b6734104d93ea06624bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 09:05:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>conn_host</field>
         <id>3e6117981b6734104d93ea06624bcba3</id>
         <sys_created_by>admin</sys_created_by>
@@ -1822,18 +1790,6 @@
         <value>{{step[a18cb5a2-2b65-4863-b893-003496d9df54].cred_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>3e6117981b6734104d93ea06624bcba3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 09:05:09</sys_created_on>
-        <sys_id>976117981b6734104d93ea06624bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 09:05:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>payload</field>
         <id>3e6117981b6734104d93ea06624bcba3</id>
         <sys_created_by>admin</sys_created_by>
@@ -1844,30 +1800,6 @@
         <sys_updated_on>2021-10-28 09:05:09</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_3e6117981b6734104d93ea06624bcba3</table>
         <value>{{step[a18cb5a2-2b65-4863-b893-003496d9df54].json_in}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>required_run_time</field>
-        <id>3e6117981b6734104d93ea06624bcba3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 09:05:09</sys_created_on>
-        <sys_id>d36117981b6734104d93ea06624bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 09:05:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>3e6117981b6734104d93ea06624bcba3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 09:05:09</sys_created_on>
-        <sys_id>5b6117981b6734104d93ea06624bcbeb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 09:05:09</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3e6117981b6734104d93ea06624bcba3^id=3e6117981b6734104d93ea06624bcba3"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=3e6117981b6734104d93ea06624bcba3"/>
@@ -1903,6 +1835,7 @@
         <element>cred_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1949,6 +1882,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1984,6 +1918,7 @@
         <element>conn_host</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2030,6 +1965,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2065,6 +2001,7 @@
         <element>conn_params</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2111,6 +2048,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2146,6 +2084,7 @@
         <element>payload</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2192,6 +2131,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2228,6 +2168,7 @@
         <element>response</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2274,6 +2215,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2309,6 +2251,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2355,6 +2298,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2374,11 +2318,11 @@
         <sys_created_on>2022-10-13 04:38:28</sys_created_on>
         <sys_id>11d0708587a2d51003ceca29dabb357a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3e6117981b6734104d93ea06624bcba3_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:28</sys_updated_on>
         <url/>
@@ -2397,11 +2341,11 @@
         <sys_created_on>2022-10-13 04:38:28</sys_created_on>
         <sys_id>11d0708587a2d51003ceca29dabb357c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3e6117981b6734104d93ea06624bcba3_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:28</sys_updated_on>
         <url/>
@@ -2491,30 +2435,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=976117981b6734104d93ea06624bcbf0"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>976117981b6734104d93ea06624bcbf0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:14</sys_created_on>
-        <sys_id>886534791b2bf4104d93ea06624bcbd1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:14</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>976117981b6734104d93ea06624bcbf0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:14</sys_created_on>
-        <sys_id>4c6534791b2bf4104d93ea06624bcbd1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:14</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sapresponse</field>
         <id>976117981b6734104d93ea06624bcbf0</id>
         <sys_created_by>admin</sys_created_by>
@@ -2525,18 +2445,6 @@
         <sys_updated_on>2021-10-28 09:05:11</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_976117981b6734104d93ea06624bcbf0</table>
         <value>{{step[d920e0d9-68a2-4f2f-b8b1-9beacebb113d].response}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>976117981b6734104d93ea06624bcbf0</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-10-28 09:05:11</sys_created_on>
-        <sys_id>ff6157981b6734104d93ea06624bcb0e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-28 09:05:11</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>status</field>
@@ -2584,6 +2492,7 @@
         <element>sapresponse</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2630,6 +2539,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2665,6 +2575,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2711,6 +2622,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2747,6 +2659,7 @@
         <element>err</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2793,6 +2706,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2828,6 +2742,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2874,6 +2789,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2909,6 +2825,7 @@
         <element>response</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2955,6 +2872,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2974,11 +2892,11 @@
         <sys_created_on>2022-10-13 04:38:28</sys_created_on>
         <sys_id>15d0708587a2d51003ceca29dabb358a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_976117981b6734104d93ea06624bcbf0_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:28</sys_updated_on>
         <url/>
@@ -2997,11 +2915,11 @@
         <sys_created_on>2022-10-13 04:38:28</sys_created_on>
         <sys_id>25d0708587a2d51003ceca29dabb358c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_976117981b6734104d93ea06624bcbf0_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:28</sys_updated_on>
         <url/>
@@ -3020,11 +2938,11 @@
         <sys_created_on>2022-10-13 04:38:28</sys_created_on>
         <sys_id>25d0708587a2d51003ceca29dabb358e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>err</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_976117981b6734104d93ea06624bcbf0_err_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:28</sys_updated_on>
         <url/>
@@ -3062,6 +2980,7 @@
         <element>I_LGNUM</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3108,6 +3027,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3144,6 +3064,7 @@
         <element>I_BNAME</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3190,6 +3111,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3226,6 +3148,7 @@
         <element>conn_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3273,6 +3196,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3309,6 +3233,7 @@
         <element>I_BWLVS</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3355,6 +3280,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3391,6 +3317,7 @@
         <element>I_KOMPL</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3437,6 +3364,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3473,6 +3401,7 @@
         <element>additional_fields</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3519,6 +3448,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3596,6 +3526,7 @@
         <element>dynamic_hidden_input_output</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3642,6 +3573,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3719,6 +3651,7 @@
         <element>T_LTAP_VB</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3765,6 +3698,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3801,6 +3735,7 @@
         <element>T_LTAP_CREAT</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3847,6 +3782,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3883,6 +3819,7 @@
         <element>I_COMMIT_WORK</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3929,6 +3866,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3965,6 +3903,7 @@
         <element>T_LTAK</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4011,6 +3950,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4049,6 +3989,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4096,6 +4037,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4134,6 +4076,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4181,6 +4124,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4260,6 +4204,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4307,6 +4252,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4345,6 +4291,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4392,6 +4339,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4430,6 +4378,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4477,6 +4426,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4509,11 +4459,11 @@
         <sys_created_on>2021-10-28 06:07:02</sys_created_on>
         <sys_id>16a8a2501b2734104d93ea06624bcb25</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Warehouse Number</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_I_LGNUM_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 06:07:02</sys_updated_on>
         <url/>
@@ -4532,11 +4482,11 @@
         <sys_created_on>2021-10-28 06:07:02</sys_created_on>
         <sys_id>1ea8a2501b2734104d93ea06624bcb43</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movement Type</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_I_BWLVS_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 06:07:02</sys_updated_on>
         <url/>
@@ -4555,11 +4505,11 @@
         <sys_created_on>2021-10-28 06:14:46</sys_created_on>
         <sys_id>2b6a26901b2734104d93ea06624bcbe2</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Multi Item Transfer Orders</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_T_LTAP_CREAT_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-23 11:21:43</sys_updated_on>
         <url/>
@@ -4578,11 +4528,11 @@
         <sys_created_on>2021-10-28 06:14:46</sys_created_on>
         <sys_id>2f6a26901b2734104d93ea06624bcbed</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transmission Structure for Update Task</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_T_LTAP_VB_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-23 11:21:43</sys_updated_on>
         <url/>
@@ -4601,11 +4551,11 @@
         <sys_created_on>2021-10-28 06:07:02</sys_created_on>
         <sys_id>52a8a2501b2734104d93ea06624bcb49</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Commit Work</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_I_COMMIT_WORK_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-23 11:28:54</sys_updated_on>
         <url/>
@@ -4624,11 +4574,11 @@
         <sys_created_on>2021-10-28 06:07:02</sys_created_on>
         <sys_id>5ea8a2501b2734104d93ea06624bcb5a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User Name</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_I_BNAME_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 06:07:02</sys_updated_on>
         <url/>
@@ -4647,11 +4597,11 @@
         <sys_created_on>2021-10-28 06:07:03</sys_created_on>
         <sys_id>92a8a2501b2734104d93ea06624bcb60</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Only Create TO</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_I_KOMPL_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 06:07:03</sys_updated_on>
         <url/>
@@ -4670,11 +4620,11 @@
         <sys_created_on>2021-10-28 06:14:46</sys_created_on>
         <sys_id>a36a26901b2734104d93ea06624bcbe8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transmission Structure</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_T_LTAK_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 06:14:46</sys_updated_on>
         <url/>
@@ -4693,11 +4643,11 @@
         <sys_created_on>2021-10-28 06:14:46</sys_created_on>
         <sys_id>a76a26901b2734104d93ea06624bcbd9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Additional Fields</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_additional_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 06:14:46</sys_updated_on>
         <url/>
@@ -4716,11 +4666,11 @@
         <sys_created_on>2021-10-27 06:46:42</sys_created_on>
         <sys_id>a928a9cc1be7f0104d93ea06624bcbb5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection Alias</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_conn_alias_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-27 06:46:42</sys_updated_on>
         <url/>
@@ -4739,11 +4689,11 @@
         <sys_created_on>2021-10-28 09:05:03</sys_created_on>
         <sys_id>f16117981b6734104d93ea06624bcb27</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transfer Order Data</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_2952c7fb1b43b4104d93ea06624bcb44_dynamic_hidden_input_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 12:35:19</sys_updated_on>
         <url/>
@@ -4764,11 +4714,11 @@
         <sys_created_on>2021-10-28 09:05:12</sys_created_on>
         <sys_id>147157981b6734104d93ea06624bcb48</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2952c7fb1b43b4104d93ea06624bcb44_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 09:05:12</sys_updated_on>
         <url/>
@@ -4787,11 +4737,11 @@
         <sys_created_on>2021-10-28 09:05:12</sys_created_on>
         <sys_id>4c7157981b6734104d93ea06624bcb30</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transfer Order Data</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2952c7fb1b43b4104d93ea06624bcb44_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 12:35:20</sys_updated_on>
         <url/>
@@ -4810,11 +4760,11 @@
         <sys_created_on>2021-10-28 09:05:13</sys_created_on>
         <sys_id>587157981b6734104d93ea06624bcb4d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2952c7fb1b43b4104d93ea06624bcb44_err_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-10-28 09:05:13</sys_updated_on>
         <url/>
@@ -4833,11 +4783,11 @@
         <sys_created_on>2022-10-13 04:38:29</sys_created_on>
         <sys_id>a5d0708587a2d51003ceca29dabb35a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2952c7fb1b43b4104d93ea06624bcb44___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:29</sys_updated_on>
         <url/>
@@ -4856,11 +4806,11 @@
         <sys_created_on>2022-10-13 04:38:29</sys_created_on>
         <sys_id>e1d0708587a2d51003ceca29dabb35bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_2952c7fb1b43b4104d93ea06624bcb44___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:29</sys_updated_on>
         <url/>
@@ -5194,30 +5144,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=057538791b2bf4104d93ea06624bcb05"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>057538791b2bf4104d93ea06624bcb05</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:35</sys_created_on>
-        <sys_id>557538791b2bf4104d93ea06624bcb2b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>057538791b2bf4104d93ea06624bcb05</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:35</sys_created_on>
-        <sys_id>197538791b2bf4104d93ea06624bcb2b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>conn_host</field>
         <id>057538791b2bf4104d93ea06624bcb05</id>
         <sys_created_by>admin</sys_created_by>
@@ -5254,18 +5180,6 @@
         <value>{{step[a18cb5a2-2b65-4863-b893-003496d9df54].cred_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>057538791b2bf4104d93ea06624bcb05</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:35</sys_created_on>
-        <sys_id>9d7538791b2bf4104d93ea06624bcb2b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>payload</field>
         <id>057538791b2bf4104d93ea06624bcb05</id>
         <sys_created_by>admin</sys_created_by>
@@ -5276,30 +5190,6 @@
         <sys_updated_on>2021-11-01 13:34:35</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_057538791b2bf4104d93ea06624bcb05</table>
         <value>{{step[a18cb5a2-2b65-4863-b893-003496d9df54].json_in}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>required_run_time</field>
-        <id>057538791b2bf4104d93ea06624bcb05</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:35</sys_created_on>
-        <sys_id>d97538791b2bf4104d93ea06624bcb2b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>057538791b2bf4104d93ea06624bcb05</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:35</sys_created_on>
-        <sys_id>517538791b2bf4104d93ea06624bcb2c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:35</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_057538791b2bf4104d93ea06624bcb05^id=057538791b2bf4104d93ea06624bcb05"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=057538791b2bf4104d93ea06624bcb05"/>
@@ -5335,6 +5225,7 @@
         <element>conn_params</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5381,6 +5272,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5416,6 +5308,7 @@
         <element>conn_host</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5462,6 +5355,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5497,6 +5391,7 @@
         <element>payload</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5543,6 +5438,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5578,6 +5474,7 @@
         <element>cred_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5624,6 +5521,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5660,6 +5558,7 @@
         <element>response</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5706,6 +5605,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5741,6 +5641,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5787,6 +5688,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5806,11 +5708,11 @@
         <sys_created_on>2022-10-13 04:38:37</sys_created_on>
         <sys_id>2bd0f08587a2d51003ceca29dabb3555</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_057538791b2bf4104d93ea06624bcb05_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:37</sys_updated_on>
         <url/>
@@ -5829,11 +5731,11 @@
         <sys_created_on>2022-10-13 04:38:37</sys_created_on>
         <sys_id>3bd0f08587a2d51003ceca29dabb3557</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_057538791b2bf4104d93ea06624bcb05_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:37</sys_updated_on>
         <url/>
@@ -5967,18 +5869,6 @@
         <value>{{action.conn_alias.sys_id}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5475f4791b2bf4104d93ea06624bcb95</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:34</sys_created_on>
-        <sys_id>c975f4791b2bf4104d93ea06624bcbfe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>comitwrk</field>
         <id>5475f4791b2bf4104d93ea06624bcb95</id>
         <sys_created_by>admin</sys_created_by>
@@ -6003,18 +5893,6 @@
         <value>{{action.I_KOMPL}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>5475f4791b2bf4104d93ea06624bcb95</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:34</sys_created_on>
-        <sys_id>8d75f4791b2bf4104d93ea06624bcbfe</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>mvtyp</field>
         <id>5475f4791b2bf4104d93ea06624bcb95</id>
         <sys_created_by>admin</sys_created_by>
@@ -6025,18 +5903,6 @@
         <sys_updated_on>2021-11-01 13:34:34</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_5475f4791b2bf4104d93ea06624bcb95</table>
         <value>{{action.I_BWLVS}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5475f4791b2bf4104d93ea06624bcb95</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:34</sys_created_on>
-        <sys_id>4175f4791b2bf4104d93ea06624bcbff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:34</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>toitem</field>
@@ -6132,6 +5998,7 @@
         <element>trnstru</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6178,6 +6045,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6213,6 +6081,7 @@
         <element>wno</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6259,6 +6128,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6294,6 +6164,7 @@
         <element>comitwrk</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6340,6 +6211,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6375,6 +6247,7 @@
         <element>creto</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6421,6 +6294,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6456,6 +6330,7 @@
         <element>alias_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6502,6 +6377,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6537,6 +6413,7 @@
         <element>trnsltp</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6583,6 +6460,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6618,6 +6496,7 @@
         <element>mvtyp</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6664,6 +6543,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6699,6 +6579,7 @@
         <element>uname</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6745,6 +6626,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6780,6 +6662,7 @@
         <element>toitem</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6826,6 +6709,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6861,6 +6745,7 @@
         <element>additional_in</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6907,6 +6792,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6943,6 +6829,7 @@
         <element>conn_host</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6989,6 +6876,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7024,6 +6912,7 @@
         <element>cred_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7070,6 +6959,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7105,6 +6995,7 @@
         <element>json_in</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7151,6 +7042,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7186,6 +7078,7 @@
         <element>conn_params</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7232,6 +7125,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7251,11 +7145,11 @@
         <sys_created_on>2022-10-13 04:38:37</sys_created_on>
         <sys_id>6fd0f08587a2d51003ceca29dabb3538</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>cred_id</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5475f4791b2bf4104d93ea06624bcb95_cred_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:37</sys_updated_on>
         <url/>
@@ -7274,11 +7168,11 @@
         <sys_created_on>2022-10-13 04:38:37</sys_created_on>
         <sys_id>6fd0f08587a2d51003ceca29dabb353a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>conn_host</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5475f4791b2bf4104d93ea06624bcb95_conn_host_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:37</sys_updated_on>
         <url/>
@@ -7297,11 +7191,11 @@
         <sys_created_on>2022-10-13 04:38:37</sys_created_on>
         <sys_id>6fd0f08587a2d51003ceca29dabb353c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>conn_params</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5475f4791b2bf4104d93ea06624bcb95_conn_params_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:37</sys_updated_on>
         <url/>
@@ -7320,11 +7214,11 @@
         <sys_created_on>2022-10-13 04:38:37</sys_created_on>
         <sys_id>6fd0f08587a2d51003ceca29dabb353e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>json_in</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5475f4791b2bf4104d93ea06624bcb95_json_in_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:37</sys_updated_on>
         <url/>
@@ -7414,30 +7308,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=917538791b2bf4104d93ea06624bcb31"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>917538791b2bf4104d93ea06624bcb31</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:36</sys_created_on>
-        <sys_id>2d7538791b2bf4104d93ea06624bcb51</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>mid_selection_type</field>
-        <id>917538791b2bf4104d93ea06624bcb31</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:36</sys_created_on>
-        <sys_id>ed7538791b2bf4104d93ea06624bcb51</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>sapresponse</field>
         <id>917538791b2bf4104d93ea06624bcb31</id>
         <sys_created_by>admin</sys_created_by>
@@ -7448,18 +7318,6 @@
         <sys_updated_on>2021-11-01 13:34:37</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_917538791b2bf4104d93ea06624bcb31</table>
         <value>{{step[d920e0d9-68a2-4f2f-b8b1-9beacebb113d].response}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>917538791b2bf4104d93ea06624bcb31</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-01 13:34:36</sys_created_on>
-        <sys_id>a17538791b2bf4104d93ea06624bcb52</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-01 13:34:36</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>status</field>
@@ -7507,6 +7365,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7553,6 +7412,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7588,6 +7448,7 @@
         <element>sapresponse</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7634,6 +7495,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7670,6 +7532,7 @@
         <element>err</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7716,6 +7579,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7751,6 +7615,7 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7797,6 +7662,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7832,6 +7698,7 @@
         <element>response</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7878,6 +7745,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7897,11 +7765,11 @@
         <sys_created_on>2022-10-13 04:38:38</sys_created_on>
         <sys_id>7bd0f08587a2d51003ceca29dabb3574</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>response</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_917538791b2bf4104d93ea06624bcb31_response_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:38</sys_updated_on>
         <url/>
@@ -7920,11 +7788,11 @@
         <sys_created_on>2022-10-13 04:38:38</sys_created_on>
         <sys_id>7bd0f08587a2d51003ceca29dabb3576</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_917538791b2bf4104d93ea06624bcb31_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:38</sys_updated_on>
         <url/>
@@ -7943,11 +7811,11 @@
         <sys_created_on>2022-10-13 04:38:38</sys_created_on>
         <sys_id>7bd0f08587a2d51003ceca29dabb3578</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>err</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_917538791b2bf4104d93ea06624bcb31_err_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:38</sys_updated_on>
         <url/>
@@ -7985,6 +7853,7 @@
         <element>I_LGNUM</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8031,6 +7900,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8067,6 +7937,7 @@
         <element>T_LTAK</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8113,6 +7984,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8149,6 +8021,7 @@
         <element>T_LTAP_VB</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8195,6 +8068,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8231,6 +8105,7 @@
         <element>I_KOMPL</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8277,6 +8152,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8313,6 +8189,7 @@
         <element>additional_fields</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8359,6 +8236,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8436,6 +8314,7 @@
         <element>dynamic_hidden_input_output</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8482,6 +8361,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8559,6 +8439,7 @@
         <element>I_BNAME</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8605,6 +8486,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8641,6 +8523,7 @@
         <element>I_COMMIT_WORK</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8687,6 +8570,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8723,6 +8607,7 @@
         <element>conn_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8770,6 +8655,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8806,6 +8692,7 @@
         <element>I_BWLVS</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8852,6 +8739,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8888,6 +8776,7 @@
         <element>T_LTAP_CREAT</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8934,6 +8823,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8972,6 +8862,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9019,6 +8910,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9098,6 +8990,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9145,6 +9038,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9183,6 +9077,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9230,6 +9125,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9268,6 +9164,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9315,6 +9212,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9353,6 +9251,7 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9400,6 +9299,7 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
+        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9432,11 +9332,11 @@
         <sys_created_on>2021-11-01 13:34:30</sys_created_on>
         <sys_id>0075f4791b2bf4104d93ea06624bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Additional Fields</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_additional_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:30</sys_updated_on>
         <url/>
@@ -9455,11 +9355,11 @@
         <sys_created_on>2021-11-01 13:34:28</sys_created_on>
         <sys_id>2365f4791b2bf4104d93ea06624bcb35</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Warehouse Number</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_I_LGNUM_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:28</sys_updated_on>
         <url/>
@@ -9478,11 +9378,11 @@
         <sys_created_on>2021-11-01 13:34:29</sys_created_on>
         <sys_id>3f65f4791b2bf4104d93ea06624bcb49</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Only Create TO</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_I_KOMPL_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:29</sys_updated_on>
         <url/>
@@ -9501,11 +9401,11 @@
         <sys_created_on>2021-11-01 13:34:28</sys_created_on>
         <sys_id>6f65f4791b2bf4104d93ea06624bcb2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection Alias</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_conn_alias_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:28</sys_updated_on>
         <url/>
@@ -9524,11 +9424,11 @@
         <sys_created_on>2021-11-01 13:34:29</sys_created_on>
         <sys_id>7765f4791b2bf4104d93ea06624bcb4f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Multi Item Transfer Orders</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_T_LTAP_CREAT_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-23 11:30:58</sys_updated_on>
         <url/>
@@ -9547,11 +9447,11 @@
         <sys_created_on>2021-11-01 13:34:29</sys_created_on>
         <sys_id>7b65f4791b2bf4104d93ea06624bcb44</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User Name</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_I_BNAME_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:29</sys_updated_on>
         <url/>
@@ -9570,11 +9470,11 @@
         <sys_created_on>2021-11-01 13:34:31</sys_created_on>
         <sys_id>8075f4791b2bf4104d93ea06624bcb7f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transfer Order Data</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_dynamic_hidden_input_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 12:36:06</sys_updated_on>
         <url/>
@@ -9593,11 +9493,11 @@
         <sys_created_on>2021-11-01 13:34:29</sys_created_on>
         <sys_id>a765f4791b2bf4104d93ea06624bcb3f</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Commit Work</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_I_COMMIT_WORK_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-23 11:30:58</sys_updated_on>
         <url/>
@@ -9616,11 +9516,11 @@
         <sys_created_on>2021-11-01 13:34:29</sys_created_on>
         <sys_id>bf65f4791b2bf4104d93ea06624bcb54</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transmission Structure</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_T_LTAK_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:29</sys_updated_on>
         <url/>
@@ -9639,11 +9539,11 @@
         <sys_created_on>2021-11-01 13:34:30</sys_created_on>
         <sys_id>bf65f4791b2bf4104d93ea06624bcb66</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transmission Structure for Update Task</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_T_LTAP_VB_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-12-23 11:30:58</sys_updated_on>
         <url/>
@@ -9662,11 +9562,11 @@
         <sys_created_on>2021-11-01 13:34:29</sys_created_on>
         <sys_id>e365f4791b2bf4104d93ea06624bcb3a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Movement Type</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9365f4791b2bf4104d93ea06624bcb09_I_BWLVS_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:29</sys_updated_on>
         <url/>
@@ -9687,11 +9587,11 @@
         <sys_created_on>2021-11-01 13:34:37</sys_created_on>
         <sys_id>357538791b2bf4104d93ea06624bcb77</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error Message</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9365f4791b2bf4104d93ea06624bcb09_err_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:37</sys_updated_on>
         <url/>
@@ -9710,11 +9610,11 @@
         <sys_created_on>2021-11-01 13:34:37</sys_created_on>
         <sys_id>797538791b2bf4104d93ea06624bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9365f4791b2bf4104d93ea06624bcb09_status_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-01 13:34:37</sys_updated_on>
         <url/>
@@ -9733,11 +9633,11 @@
         <sys_created_on>2022-10-13 04:38:38</sys_created_on>
         <sys_id>7bd0f08587a2d51003ceca29dabb3594</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9365f4791b2bf4104d93ea06624bcb09___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:38</sys_updated_on>
         <url/>
@@ -9756,11 +9656,11 @@
         <sys_created_on>2021-11-01 13:34:37</sys_created_on>
         <sys_id>a17538791b2bf4104d93ea06624bcb5b</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Transfer Order Data</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9365f4791b2bf4104d93ea06624bcb09_output_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-11-23 12:36:07</sys_updated_on>
         <url/>
@@ -9779,11 +9679,11 @@
         <sys_created_on>2022-10-13 04:38:38</sys_created_on>
         <sys_id>fbd0f08587a2d51003ceca29dabb358b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
         <sys_policy/>
         <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9365f4791b2bf4104d93ea06624bcb09___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-10-13 04:38:38</sys_updated_on>
         <url/>
@@ -9832,8 +9732,9 @@
             <value>error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_action_type_definition action="update">
+    <sys_hub_action_type_definition action="UPDATE">
         <sys_id>2952c7fb1b43b4104d93ea06624bcb44</sys_id>
         <latest_snapshot>9365f4791b2bf4104d93ea06624bcb09</latest_snapshot>
+        <compiler_build>glide-rome-06-23-2021__patch10-hotfix2-08-24-2022_08-31-2022_1215.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

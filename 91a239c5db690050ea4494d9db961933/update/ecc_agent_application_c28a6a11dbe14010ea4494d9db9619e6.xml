@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application">
     <ecc_agent_application action="INSERT_OR_UPDATE">
-        <default_mid_server display_value="MID_133_SAP">488233b0db4494100fbb3764e29619cd</default_mid_server>
+        <default_mid_server display_value="">488233b0db4494100fbb3764e29619cd</default_mid_server>
         <included_in_app_all>true</included_in_app_all>
         <name>SAP_MID_APP</name>
         <sys_class_name>ecc_agent_application</sys_class_name>

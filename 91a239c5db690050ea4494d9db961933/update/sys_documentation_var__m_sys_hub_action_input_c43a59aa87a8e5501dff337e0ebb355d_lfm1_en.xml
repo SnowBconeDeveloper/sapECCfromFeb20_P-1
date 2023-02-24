@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="LFM1" label="Purchasing Organization Data of Vendor" language="en" table="var__m_sys_hub_action_input_c43a59aa87a8e5501dff337e0ebb355d">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>LFM1</element>
+            <help/>
+            <hint/>
+            <label>Purchasing Organization Data of Vendor</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_c43a59aa87a8e5501dff337e0ebb355d</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>nishanth</sys_created_by>
+            <sys_created_on>2023-01-25 10:05:35</sys_created_on>
+            <sys_id>0f01616a97ec2910215b35471153afbe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Purchasing Organization Data of Vendor</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c43a59aa87a8e5501dff337e0ebb355d_LFM1_en</sys_update_name>
+            <sys_updated_by>nishanth</sys_updated_by>
+            <sys_updated_on>2023-02-02 13:04:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

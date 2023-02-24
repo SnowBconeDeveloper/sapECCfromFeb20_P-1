@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="json_material_data" label="JSON Material Data" language="en" table="var__m_sys_hub_action_output_bf0b00769733d510215b35471153afeb">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>json_material_data</element>
+            <help/>
+            <hint/>
+            <label>JSON Material Data</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_bf0b00769733d510215b35471153afeb</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>mayank</sys_created_by>
+            <sys_created_on>2022-12-22 06:10:33</sys_created_on>
+            <sys_id>7435e5af87bf59101dff337e0ebb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>JSON Material Data</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_bf0b00769733d510215b35471153afeb_json_material_data_en</sys_update_name>
+            <sys_updated_by>mayank</sys_updated_by>
+            <sys_updated_on>2022-12-22 06:10:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

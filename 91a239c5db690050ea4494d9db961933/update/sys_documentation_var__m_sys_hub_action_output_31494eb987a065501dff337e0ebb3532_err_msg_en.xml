@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="err_msg" label="Error Message" language="en" table="var__m_sys_hub_action_output_31494eb987a065501dff337e0ebb3532">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>err_msg</element>
+            <help/>
+            <hint/>
+            <label>Error Message</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_31494eb987a065501dff337e0ebb3532</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>varun</sys_created_by>
+            <sys_created_on>2023-01-23 05:06:07</sys_created_on>
+            <sys_id>70598eb987a065501dff337e0ebb356e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Error Message</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_31494eb987a065501dff337e0ebb3532_err_msg_en</sys_update_name>
+            <sys_updated_by>varun</sys_updated_by>
+            <sys_updated_on>2023-01-23 05:06:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

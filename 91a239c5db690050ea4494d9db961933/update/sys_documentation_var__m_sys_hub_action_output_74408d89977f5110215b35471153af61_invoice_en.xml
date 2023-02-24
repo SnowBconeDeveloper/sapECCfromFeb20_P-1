@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="invoice" label="Invoice" language="en" table="var__m_sys_hub_action_output_74408d89977f5110215b35471153af61">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>invoice</element>
+            <help/>
+            <hint/>
+            <label>Invoice</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_74408d89977f5110215b35471153af61</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>krishna</sys_created_by>
+            <sys_created_on>2023-02-16 06:41:31</sys_created_on>
+            <sys_id>9c5502e1478d6550f8cfb777746d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Invoice</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_74408d89977f5110215b35471153af61_invoice_en</sys_update_name>
+            <sys_updated_by>krishna</sys_updated_by>
+            <sys_updated_on>2023-02-16 06:41:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

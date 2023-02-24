@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="headerlist_ref_doc_no_long" label="HEADERLIST.REF_DOC_NO_LONG" language="en" table="sn_sap_ecc_rfc_spo_sap_ecc_invoices_data">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>headerlist_ref_doc_no_long</element>
+            <help/>
+            <hint/>
+            <label>HEADERLIST.REF_DOC_NO_LONG</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_ecc_invoices_data</name>
+            <plural>HEADERLIST.REF_DOC_NO_LONGs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:23</sys_created_on>
+            <sys_id>492d855c87d5a110928ea7d73cbb3586</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>HEADERLIST.REF_DOC_NO_LONG</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_sn_sap_ecc_rfc_spo_sap_ecc_invoices_data_headerlist_ref_doc_no_long_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

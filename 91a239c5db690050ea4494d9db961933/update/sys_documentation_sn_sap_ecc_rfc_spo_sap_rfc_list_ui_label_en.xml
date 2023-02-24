@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ui_label" label="UI Label" language="en" table="sn_sap_ecc_rfc_spo_sap_rfc_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ui_label</element>
+            <help/>
+            <hint/>
+            <label>UI Label</label>
+            <language>en</language>
+            <name>sn_sap_ecc_rfc_spo_sap_rfc_list</name>
+            <plural>UI Labels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-02-24 15:39:25</sys_created_on>
+            <sys_id>652d855c87d5a110928ea7d73cbb35f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>UI Label</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_sn_sap_ecc_rfc_spo_sap_rfc_list_ui_label_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-02-24 15:39:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

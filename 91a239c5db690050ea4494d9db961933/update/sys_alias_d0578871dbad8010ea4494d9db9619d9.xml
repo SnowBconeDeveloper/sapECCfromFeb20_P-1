@@ -5,6 +5,7 @@
         <id>sn_sap_ecc_rfc_spo.SAP_ECC</id>
         <multiple_connections>false</multiple_connections>
         <name>SAP_ECC</name>
+        <parent/>
         <retry_policy/>
         <sys_class_name>sys_alias</sys_class_name>
         <sys_created_by>admin</sys_created_by>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="POITEM" label="Purchase Order Items" language="en" table="var__m_sys_hub_action_input_b7fb4f2b87c759101dff337e0ebb3597">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>POITEM</element>
+            <help/>
+            <hint/>
+            <label>Purchase Order Items</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_b7fb4f2b87c759101dff337e0ebb3597</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>akash</sys_created_by>
+            <sys_created_on>2022-11-15 06:52:37</sys_created_on>
+            <sys_id>0c0c4f2b87c759101dff337e0ebb35dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Purchase Order Items</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_b7fb4f2b87c759101dff337e0ebb3597_POITEM_en</sys_update_name>
+            <sys_updated_by>akash</sys_updated_by>
+            <sys_updated_on>2022-11-15 06:52:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="conn_alias" label="Connection Alias" language="en" table="var__m_sys_hub_action_input_22e1673fc7043010678d208c95c2606f">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>conn_alias</element>
+            <help/>
+            <hint/>
+            <label>Connection Alias</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_22e1673fc7043010678d208c95c2606f</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-05-18 13:57:14</sys_created_on>
+            <sys_id>f429b8ccc7d43010678d208c95c26050</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Connection Alias</sys_name>
+            <sys_package display_value="SAP ECC RFC Spoke" source="sn_sap_ecc_rfc_spo">91a239c5db690050ea4494d9db961933</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SAP ECC RFC Spoke">91a239c5db690050ea4494d9db961933</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_input_22e1673fc7043010678d208c95c2606f_conn_alias_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-05-18 13:57:14</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
